@@ -6,7 +6,7 @@
       <li>User-friendly</li>
       <li>Local Storage Supported</li>
       <li>Responsive, on all devices</li>
-      <li>Add/Edit/Delete/Delete All/Return/Clean Completed - todos</li>
+      <li>Add / Edit / Delete / Delete All / Return / Clean Completed - to do</li>
    </ul>
 <hr>
   <h3>Technologies Used</h3>
