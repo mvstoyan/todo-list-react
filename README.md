@@ -1,4 +1,4 @@
-<h1>Project: <em><a href="https://todo-list-mvstoyan.netlify.app" target="_blank">To-Do react app</a><em></h1>
+<h1><em><a href="https://todo-react-m.netlify.app" target="_blank">To-Do react app</a><em></h1>
     <img src="responsiveToDo.png" alt="" width="auto">
 <hr>
   <h3>Features:</h3>
