@@ -1,0 +1,165 @@
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-color: #f7f7f0;
+}
+.note {
+    display: flex;
+    justify-content: center;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+h1 {
+    font-size: 40px;
+    color: #18526d;
+    font-family: 'Fredericka the Great', cursive;
+}
+h2 {
+    font-size: 20px;
+    color: #18526d;
+    font-family: 'Handlee', cursive;
+}
+.inputField {
+    padding: 10px;
+    color: #18526d;
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.15), inset 2px 2px 5px rgb(196,221,252), inset -3px -3px 5px rgba(0, 0, 0, 0.15);
+    background-color:#f7f7f0;
+}
+.btn {
+    margin-left: 10px;
+    outline: none;
+    background: #c4ddfc;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.15), inset 2px 2px 5px rgb(196,221,252), inset -3px -3px 5px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #18526d;
+    font-family: 'Fredericka the Great', cursive;
+}
+.btnNext {
+    width: 40px;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li {
+    padding: 10px;
+    text-align: start;
+    color: #18526d;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.15), inset 2px 2px 5px rgb(196,221,252), inset -3px -3px 5px rgba(0, 0, 0, 0.15);
+    background-color:#f7f7f0;
+    width: 400px;
+}
+.imgBtn {
+    width: 24px;
+}
+.icon {
+    margin-right: 30px;
+}
+.images {
+    width: 200px;
+}
+@media all and (max-width: 1024px) {
+    body {
+        width: auto;
+   }
+    .note {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px;
+   }
+    .one {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+   }
+    .img {
+        width: 150px;
+   }
+    li {
+        padding: 5px;
+        font-size: 15px;
+        width: 400px;
+        height: 30px;
+   }
+}
+@media all and (max-width: 500px) {
+    body {
+        width: auto;
+   }
+    .note {
+        padding: 10px;
+   }
+    h1 {
+        font-size: 18px;
+   }
+    h2 {
+        font-size: 13px;
+   }
+    .inputField {
+        padding: 5px;
+        font-size: 15px;
+        width: 200px;
+        height: 20px;
+   }
+    .btn {
+        margin-left: 5px;
+        font-size: 10px;
+   }
+    .btnNext {
+        width: 20px;
+   }
+    ul {
+        padding: 5px;
+        margin: 0;
+   }
+    li {
+        margin-left: -5px;
+        padding: 5px;
+        font-size: 15px;
+        width: 290px;
+        height: 20px;
+   }
+    .imgBtn {
+        width: 15px;
+   }
+    .icon {
+        margin-right: 10px;
+        size: 15px;
+   }
+    .images {
+        width: 100px;
+   }
+}
+
